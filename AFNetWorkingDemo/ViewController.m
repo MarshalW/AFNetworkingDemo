@@ -110,6 +110,8 @@
     }];
     
     [uploadTask resume];
+    
+    NSLog(@"dev modified");
 }
 
 @end
