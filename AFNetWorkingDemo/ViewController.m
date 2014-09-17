@@ -56,8 +56,9 @@
     [config setHTTPAdditionalHeaders:@{ @"User-Agent" : @"My Browser"}];
     
     AFHTTPSessionManager *manager=[[AFHTTPSessionManager alloc] initWithBaseURL:baseURL sessionConfiguration:config];
+    NSDictionary *params=[[NSDictionary alloc] initWithObjectsAndKeys:@"8",@"id",nil];
     
-    [manager GET:@"/json" parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    [manager GET:@"/json" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
         NSDictionary * object=(NSDictionary *)responseObject;
         NSLog(@"response message: %@",object[@"message"]);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
