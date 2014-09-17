@@ -28,6 +28,8 @@
     [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
     }];
+    
+    NSLog(@"This is from new feature branch");
 }
 
 - (IBAction)getAndHTMLResponse:(id)sender {
