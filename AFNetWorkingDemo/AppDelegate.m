@@ -6,8 +6,11 @@
 //  Copyright (c) 2014年 Marshal Wu. All rights reserved.
 //
 
-#import "AppDelegate.h"
 #import <AFHTTPSessionManager.h>
+
+#import "AppDelegate.h"
+#import "HttpMock.h"
+
 
 @interface AppDelegate ()
 
@@ -18,6 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    [HttpMock initMock];
     return YES;
 }
 

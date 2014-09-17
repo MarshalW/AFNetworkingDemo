@@ -15,6 +15,12 @@
 		F31530A819C7F70600816CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31530A719C7F70600816CF5 /* Images.xcassets */; };
 		F31530AB19C7F70600816CF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31530A919C7F70600816CF5 /* LaunchScreen.xib */; };
 		F31530B719C7F70600816CF5 /* AFNetWorkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31530B619C7F70600816CF5 /* AFNetWorkingDemoTests.m */; };
+		F3166A2F19C973B800920F2D /* HttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = F3166A2E19C973B800920F2D /* HttpMock.m */; };
+		F3166A3219C98B6C00920F2D /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = F3166A3019C98B6C00920F2D /* test.json */; };
+		F3166A3319C98B6C00920F2D /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3166A3119C98B6C00920F2D /* TemplateIcon2x.png */; };
+		F3166A3619C991CA00920F2D /* OCFURLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F3166A3519C991CA00920F2D /* OCFURLQuery.m */; };
+		F3166A3819C996C700920F2D /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = F3166A3719C996C700920F2D /* taobao.png */; };
+		F3166A3A19C999F600920F2D /* yklogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3166A3919C999F600920F2D /* yklogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,14 @@
 		F31530B019C7F70600816CF5 /* AFNetWorkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetWorkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31530B519C7F70600816CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31530B619C7F70600816CF5 /* AFNetWorkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingDemoTests.m; sourceTree = "<group>"; };
+		F3166A2D19C973B800920F2D /* HttpMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpMock.h; sourceTree = "<group>"; };
+		F3166A2E19C973B800920F2D /* HttpMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpMock.m; sourceTree = "<group>"; };
+		F3166A3019C98B6C00920F2D /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		F3166A3119C98B6C00920F2D /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		F3166A3419C991CA00920F2D /* OCFURLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCFURLQuery.h; path = "../../../../Downloads/URLQueryToCocoa-master/OCFURLQuery.h"; sourceTree = "<group>"; };
+		F3166A3519C991CA00920F2D /* OCFURLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCFURLQuery.m; path = "../../../../Downloads/URLQueryToCocoa-master/OCFURLQuery.m"; sourceTree = "<group>"; };
+		F3166A3719C996C700920F2D /* taobao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taobao.png; path = ../../../../Desktop/taobao.png; sourceTree = "<group>"; };
+		F3166A3919C999F600920F2D /* yklogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yklogo.png; path = ../../../../Desktop/yklogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,8 @@
 		F315309919C7F70600816CF5 /* AFNetWorkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F3166A3419C991CA00920F2D /* OCFURLQuery.h */,
+				F3166A3519C991CA00920F2D /* OCFURLQuery.m */,
 				F315309E19C7F70600816CF5 /* AppDelegate.h */,
 				F315309F19C7F70600816CF5 /* AppDelegate.m */,
 				F31530A119C7F70600816CF5 /* ViewController.h */,
@@ -103,6 +119,12 @@
 				F31530A719C7F70600816CF5 /* Images.xcassets */,
 				F31530A919C7F70600816CF5 /* LaunchScreen.xib */,
 				F315309A19C7F70600816CF5 /* Supporting Files */,
+				F3166A2D19C973B800920F2D /* HttpMock.h */,
+				F3166A2E19C973B800920F2D /* HttpMock.m */,
+				F3166A3019C98B6C00920F2D /* test.json */,
+				F3166A3719C996C700920F2D /* taobao.png */,
+				F3166A3919C999F600920F2D /* yklogo.png */,
+				F3166A3119C98B6C00920F2D /* TemplateIcon2x.png */,
 			);
 			path = AFNetWorkingDemo;
 			sourceTree = "<group>";
@@ -215,7 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3166A3319C98B6C00920F2D /* TemplateIcon2x.png in Resources */,
+				F3166A3A19C999F600920F2D /* yklogo.png in Resources */,
 				F31530A619C7F70600816CF5 /* Main.storyboard in Resources */,
+				F3166A3219C98B6C00920F2D /* test.json in Resources */,
+				F3166A3819C996C700920F2D /* taobao.png in Resources */,
 				F31530AB19C7F70600816CF5 /* LaunchScreen.xib in Resources */,
 				F31530A819C7F70600816CF5 /* Images.xcassets in Resources */,
 			);
@@ -268,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3166A3619C991CA00920F2D /* OCFURLQuery.m in Sources */,
 				F31530A319C7F70600816CF5 /* ViewController.m in Sources */,
 				F31530A019C7F70600816CF5 /* AppDelegate.m in Sources */,
 				F315309D19C7F70600816CF5 /* main.m in Sources */,
+				F3166A2F19C973B800920F2D /* HttpMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
